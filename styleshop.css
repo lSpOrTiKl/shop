@@ -1,0 +1,28 @@
+body{
+    background: url(img/back/bgshop.jfif);
+    /* background-repeat: no-repeat; */
+    background-position: center center;
+    background-attachment: fixed;
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.showcase{
+    text-align: center;
+    width: 70%;
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px #4ea9de;
+    background-color: aquamarine;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    
+    
+}
+
