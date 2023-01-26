@@ -68,11 +68,12 @@ body{
 
 
 
-.showcase {
+.showcase  {
 
-    text-align: center;
+    /* text-align: center; */
     width: 70%;
-    
+    position: absolute;
+    top: 50px;
     padding: 32px;
     border-radius: 10px;
     box-shadow: 0 4px 16px #4ea9de;
@@ -85,4 +86,25 @@ body{
 
 
 
+.leftimg {
+    float:left;
+    margin: 7px 7px 7px 0;
+   }
+.glav{
+    text-align: center;
+}
+
+.buy{
+    font-size: 20px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 16px #1ef06f;
+    border-radius: 5px;
+    color: rgb(44, 44, 44);
+    background-color: #099628;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
 
